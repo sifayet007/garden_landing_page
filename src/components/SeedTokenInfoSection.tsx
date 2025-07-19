@@ -13,7 +13,7 @@ const SeedTokenInfoSection = () => {
                 <Image src={assets.leafBag} alt='leat bag' width={147} height={164} className='md:absolute left-[clamp(20px,10vw,214px)] bottom-0 md:w-[clamp(80px,10vw,147px)]'/>
                 <Image src={assets.leaf} alt='leat bag' width={104} height={104}  className='md:absolute right-[clamp(20px,10vw,214px)] top-0 -translate-y-10 md:-translate-0'/>
             </div>
-            <h1 className='text-[clamp(36px,4vw,48px)] font-bold uppercase'>it’s not just that...</h1>
+            <h1 className='text-[clamp(36px,4vw,48px)] font-semibold uppercase custom-cunia'>it’s not just that...</h1>
             <p className='leading-relaxed md:max-w-[607px] mt-[clamp(18px,4vw,30px)] '>You can also support the creators by commenting on their posts and giving donations directly to them in $SEED. The creators can later use their $SEaED to buy tools and materials in our Marketplace.</p>
             <h3 className='text-[#45B26B] mt-[clamp(25px,4vw,37px)] text-[clamp(24px,2.5vw22px)] mb-5'>What is $SEED?</h3>
             <p className='md:max-w-[604px]'>When you buy $SEED, a part of them will go to The Garden fund, which is used for spotlighting emerging talents andorganizing Grassroots events.</p>

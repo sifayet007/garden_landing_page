@@ -42,7 +42,7 @@ function HallOfFameUser() {
 return (
    <div>
      <div className=' lg:px-[173px] mt-[clamp(40px,4vw,60px)] px-5 relative'>
-      <h1 className='text-[clamp(24px,2.5vw,57px)] font-bold mb-[clamp(35px,2vw,57px)]'>
+      <h1 className='text-[clamp(24px,2.5vw,57px)] font-bold mb-[clamp(35px,2vw,57px)] custom-cunia'>
         Hall Of Fame
       </h1>
       <div className='lg:block hidden '>

@@ -10,7 +10,7 @@ const EarnHeroSection = () => {
        <div>
          <div className='md:flex justify-between items-center lg:pl-[100px] mt-[clamp(40px,4vw,60px)] lg:px-0 px-5'>
             <div className='w-full'>
-                <div className='font-bold flex flex-col text-[clamp(24px,2.5vw,64px)]'>
+                <div className='font-semibold custom-cunia flex flex-col text-[clamp(24px,2.5vw,64px)]'>
                     <span>CREATE.</span>
                     <span>EARN SPOTLIGHT.</span>
                     <span>REPEAT.</span>

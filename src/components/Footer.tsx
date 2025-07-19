@@ -12,7 +12,7 @@ const Footer = () => {
                     <div>
                         <Image src={assets.gardenLogo.src} alt="logo" width={67} height={60} />
                     </div>
-                    <h1 className='font-bold text-[19px] flex flex-col '>
+                    <h1 className='font-semibold custom-cunia text-[19px] flex flex-col '>
                         <span>THE GARDEN</span>
                         <span>PLATFORM</span>
                     </h1>

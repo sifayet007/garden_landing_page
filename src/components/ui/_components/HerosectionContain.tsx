@@ -5,7 +5,7 @@ import Button from '../ButtonProps';
 const HerosectionContain = () => {
     return (
         <div className='lg:px-0 '>
-            <h1 className='text-[clamp(30px,2.5vw,64px)] font-bold'>WELCOME TO THE GARDEN</h1>
+            <h1 className='text-[clamp(30px,2.5vw,64px)] font-bold custom-cunia'>WELCOME TO THE GARDEN</h1>
             <p className='mt-[clamp(12px,2vw,30px)] text-[clamp(14px,2vw,20px)]'>Are you an emerging artist mastering your skills, a newcomer passionate about creative work, or just a person who loves cr eative content? 
 </p>
             <p className='text-[clamp(14px,2vw,20px)]'>Whoever you are, The Garden has a place for you. </p>
