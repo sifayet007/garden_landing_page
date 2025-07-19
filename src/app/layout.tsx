@@ -1,9 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,  } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import localFont from 'next/font/local';
 
- 
+const cunia = localFont({
+  src: './fonts/cunia.ttf',
+  display: 'swap',
+  variable: '--font-cunia',
+})
 
 
 
@@ -20,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en"  >
       <body
-        className={` antialiased max-w-[1440px] mx-auto overflow-x-hidden`}
+        className={`${cunia.variable} antialiased max-w-[1440px] mx-auto overflow-x-hidden`}
       >
         <div>
           <Navbar/>

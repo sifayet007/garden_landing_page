@@ -15,9 +15,9 @@ const VirtualWorldToRealLife = () => {
                 {
                    virtualToRealLifeData?.map((item , index: number) => (
                         <div key={index} className='pt-[clamp(38px,4vw,64px)] px-[clamp(20px,4vw,45px)] pb-10 drop-shadow-2xl bg-white rounded-4xl w-full'>
-                           <div className='bg-[#45B26B] w-[66px] h-[66px] rounded-full flex justify-center items-center p-4'>
+                           <div className='relative bg-[#45B26B] w-[66px] h-[66px] rounded-full flex justify-center items-center p-4'>
                             <Image src={item.image} alt={item.title} className='w-full h-full
-                             object-cover object-center ' />
+                             object-cover object-center inset-0' />
 
                            </div>
                            <div>
